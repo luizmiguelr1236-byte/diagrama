@@ -17,7 +17,7 @@ ON LOCACOES
 AFTER UPDATE
 AS
 BEGIN
-    -- Só atualiza quando houver devolução
+    -- SÃ³ atualiza quando houver devoluÃ§Ã£o
     IF UPDATE(DATA_DEVOLUCAO)
     BEGIN
         UPDATE F

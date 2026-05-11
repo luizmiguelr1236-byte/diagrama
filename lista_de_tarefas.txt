@@ -1,0 +1,9 @@
+add:
+ - sistema de parcelamento;
+ - data de vencimento;
+ - pagamento só pode chegar em dias úteis;
+ - pagar a primeira parcela hoje ou no próximo mês;
+ - tabela de calendário pra os feriados fixos, feriados que mudam o número do dia e dias úteis;
+ - verificação de pagamento da  parcela.
+
+obs.: usar adicionar data ao invés de adicionar dias, pq se adicionar dias ele pode não verificar se caiu ou não em dias úteis

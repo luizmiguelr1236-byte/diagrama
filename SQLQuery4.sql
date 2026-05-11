@@ -73,9 +73,9 @@ end
 
 EXEC incluir_clientes
 '890635147', 
-'João Pedro Costa Silva', 
+'JoÃ£o Pedro Costa Silva', 
 'Rua beija-flor 149', 
-'Alumínio', 
+'AlumÃ­nio', 
 'Sorocaba', 
 'PA',
 '(34)3737279648',
@@ -84,7 +84,7 @@ EXEC incluir_clientes
 'M'
 execute Selecionar_clientes 12
 execute alterar_cliente @COD_CLIENTE = 5, @RG =  '890607387',@NOME =  'Juliano Teixeira dos Santos',
- @ENDERECO = 'Rua aninha garibaldi 376',@BAIRRO = 'Alúminio', @CIDADE =  'Sorocaba',@ESTADO =  'PA',
+ @ENDERECO = 'Rua aninha garibaldi 376',@BAIRRO = 'AlÃºminio', @CIDADE =  'Sorocaba',@ESTADO =  'PA',
 @TELEFONE = '3437372763831',@EMAIL = 'Joaocacetinho3@gmail.com',@DATANASCIMENTO = '2007-11-23',@Sexo = 'M'
 execute Excluir_clientes 11
 
@@ -109,7 +109,7 @@ BEGIN
     END
     ELSE
     BEGIN
-        PRINT 'Sem aniversariantes neste mês.'
+        PRINT 'Sem aniversariantes neste mÃªs.'
     END
 END
 
